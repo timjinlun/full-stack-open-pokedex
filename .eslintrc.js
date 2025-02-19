@@ -1,21 +1,21 @@
-module.export = {
-  'env': {
+module.exports = {
+  env: {
     'browser': true,
     'es6': true,
     'jest/globals': true
   },
-  'extends': [
+  extends: [
     'eslint:recommended',
     'plugin:react/recommended'
   ],
-  'parserOptions': {
+  parserOptions: {
     'ecmaFeatures': {
       'jsx': true
     },
     'ecmaVersion': 2018,
     'sourceType': 'module'
   },
-  'plugins': [
+  plugins: [
     'react', 'jest'
   ],
   'rules': {
